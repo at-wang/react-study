@@ -1,6 +1,12 @@
 <component name="InspectionProjectProfileManager">
   <profile version="1.0">
     <option name="myName" value="Project Default" />
+    <inspection_tool class="951c1f75-7a9f-318f-8624-cd5cb90b890d" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SSBasedInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <searchConfiguration name="vue" text="　v-text&#10;        　　　　v-html&#10;        　　　　v-once&#10;        　　　　v-if&#10;        　　　　v-show&#10;        　　　　v-else&#10;        　　　　v-for&#10;        　　　　v-on&#10;        　　　　v-bind&#10;        　　　　v-model&#10;        　　　　v-ref&#10;        　　　　v-el&#10;        　　　　v-pre&#10;        　　　　v-cloak&#10;        　　　　v-on:click&#10;        　　　　v-on:keyup.enter&#10;        　　　　v-on:keyup&#10;        　　　　@click&#10;        　　　　@change&#10;        　　　　number&#10;        　　　　debounce&#10;        　　　　transition&#10;        　　　　:is " recursive="true" caseInsensitive="true" type="Vue.js">
+        <constraint name="__context__" within="" contains="" />
+      </searchConfiguration>
+    </inspection_tool>
   </profile>
 </component>
